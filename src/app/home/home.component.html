@@ -1,13 +1,19 @@
-
 <div class="main-home">
     <div class="nav-bar d-flex">
         <div>Super Flight Booking App - BETA</div>
         <div>
-            <button (click)="logout()">
+            <button class="btn btn-danger" (click)="logout()">
                 Logout
-              </button>
+            </button>
         </div>
     </div>
 </div>
 
-<h1>Welcome to the Home Page, {{loggedInUser?.name}}</h1>
+<div class="d-flex align-items-end justify-content-center mt-2">
+
+    <h3>Welcome, </h3>
+    <h2>{{loggedInUser?.name}}</h2>
+
+</div>
+
+<app-flight-form></app-flight-form>

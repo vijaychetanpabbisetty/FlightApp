@@ -1,24 +1,12 @@
 <div>
-    <div>
-      <!-- <input type="email" placeholder="Email" [(ngModel)]="email" />
-      <input type="password" placeholder="Password" [(ngModel)]="password" />
-      <input type="text" placeholder="Name" [(ngModel)]="name" />
-  
-      <button (click)="login(email, password)">
-        Login
-      </button>
-  
-      <button (click)="register(email, password, name)">
-        Register
-      </button>
-  
-      <button (click)="logout()">
-        Logout
-      </button> -->
-
-      <button (click)="signin()">
-        Sign in with Google
-      </button>
+    <div class="login-page row">
+        <div class="col-7"></div>
+        <div class="auth-box col-4">
+            <h4>Signin to contiune</h4>
+            <button class="btn btn-google" (click)="signin()">
+                <img src="https://img.icons8.com/color/16/000000/google-logo.png" class="mr-3">
+                <div>Sign in with Google</div>
+            </button>
+        </div>
     </div>
-  </div>
-  
+</div>

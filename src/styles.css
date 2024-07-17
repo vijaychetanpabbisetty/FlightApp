@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body,
+app-root {
+    height: 100%;
+}
+
+.mr-3 {
+    margin-right: 9px;
+}
+.ml-3{
+    margin-left: 9px;
+}
+.mt-2{
+    margin-top: 6px;
+}
