@@ -12,7 +12,7 @@ export class ApiService {
   submitForm(payload: any) {
     const headers = {
       'token': 'WW91IG11c3QgYmUgdGhlIGN1cmlvdXMgdHlwZS4gIEJyaW5nIHRoaXMgdXAgYXQgdGhlIGludGVydmlldyBmb3IgYm9udXMgcG9pbnRzICEh',
-      'candidate': 'testingraja',
+      'candidate': 'Vijaychetan Pabbisetty',
       'Content-Type': 'application/json'
     };
 

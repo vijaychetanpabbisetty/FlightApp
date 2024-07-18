@@ -1,13 +1,12 @@
 {
-	"name": "ngSweetAlert",
+	"name": "Flight Check App",
 	"version": "1.1.2",
 	"main": "./SweetAlert.js",
-	"author": "pedro@oitozero.com",
+	"author": "Vijaychetan Pabbisetty",
 	"contributors": [
-		"gnick666@gmail.com",
-		"thodoris.bais@gmail.com"
+		"pabbisetty.vijay@gmail.com"
 	],
-	"description": "AngularJS wrapper for SweetAlert",
+	"description": "AngularJS for Flight Check App",
 	"keywords": [
 		"angular",
 		"AngularJs",
